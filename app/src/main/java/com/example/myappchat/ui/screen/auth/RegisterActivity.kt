@@ -22,7 +22,7 @@ class RegisterActivity : AppCompatActivity() {
             insets
         }
         binding.btnRegister.setOnClickListener {
-            val intent = Intent(this@RegisterActivity, VerifyActivity::class.java)
+            val intent = Intent(this, VerifyActivity::class.java)
             startActivity(intent)
         }
         binding.lbLogin.setOnClickListener {
